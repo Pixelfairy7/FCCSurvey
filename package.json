@@ -1,0 +1,22 @@
+{
+  "name": "fcc-survey",
+  "version": "1.0.0",
+  "description": "This project is from the Freecodecamp.org curriculum, in particular the projects from the Responsive Web Design Certification. [Responsive Web Design Projects - Build a Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)\"Free Code Camp Survey Form\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixelfairy7/FCCSurvey.git"
+  },
+  "author": "Erika Myles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pixelfairy7/FCCSurvey/issues"
+  },
+  "homepage": "https://github.com/Pixelfairy7/FCCSurvey#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
