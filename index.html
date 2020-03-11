@@ -7,6 +7,105 @@
     <title>Survey Project</title>
 </head>
 <body>
-   <h1> Ayye World! </h1> 
+    <section class="header">
+        <h1 id="title"> Black Card Application </h1> 
+    </section>
+  <section class="info">
+    <p id="description">Has your Black Card recently been revoked? Apprehensive about coming to the Cookout this summer?</p>
+   <p>Apply today for your Black Card, and approach all of your melanated family functions and social gatherings, including the grownups Spades table with unshakeable confidence. The steps are easy: </p>
+   <span> Simply</span>
+   
+   <ol>
+       <li>Complete this short series of commonly known Black facts and vernacular questions.</li>
+       <li>Submit your application</li>
+       <li>Bask in your Blackness when your pending application is approved.<sup>*</sup></li>
+   </ol>
+  </section>
+  <section class="form-body">
+    <form id="survey-form">
+        <div class="form-section personal-info">
+            <label for="name" id="name-label">Enter your name:</label>
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="email" id="email-label">Enter your email:</label>
+           
+            <label for="revoked-select">Has your Black Card previously been revoked?</label>
+            <select name="revoked" id="dropdown">
+                <option value="">Please select one:</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="noAns">Prefer not to answer</option>
+            </select>
+        </div>
+        <div class="form-section questions">
+            <h2>Questions</h2>
+            <p>Please answer these questions completely and to the best of your ability. </p>
+            <div class="question">
+                <label for="number" id="number-label">How many members are in the Wu-Tang Clan?</label>
+            <input type="number" name="number" id="number" min="0" max="100" placeholder="#">
+            </div>
+            <div class="question">
+                <p>How long did Sofia have to fight?</p>
+
+                <input type="radio" name="color-purple" id="never" value="never">
+                <label for="never">Never</label>
+                <input type="radio" name="color-purple" id="sometimes" value="sometimes">
+                <label for="never">Sometimes</label>
+                <input type="radio" name="color-purple" id="life" value="life">
+                <label for="life">All her life</label>
+                <input type="radio" name="color-purple" id="never" value="once">
+                <label for="never">Once or Twice</label>
+                </div>
+        <div class="question">
+            <p>J.Cole went platinum with how many features?</p> 
+           <input type="radio" name="cole" 
+                id="1" value="1">
+           <label for="1">1 </label>
+
+           <input type="radio" name="cole" id="2" value="2">
+           <label for="2">2</label>  
+
+           <input type="radio" name="cole" id="0" value="0">
+           <label for="3">0</label> 
+
+           <input type="radio" name="cole" id="no" value="no">
+           <label for="no">no</label>
+        </div>
+         <div class="question">
+            <p>Finish this number (281)330-____</p>
+            <input type="radio" name="number" id="1" value="8004">
+            <label for="1">8004</label>
+            <input type="radio" name="number" id="2" value="2135">
+            <label for="2">2135</label> 
+            <input type="radio" name="number" id="3" value="5309">
+            <label for="3">5309</label> 
+            <input type="radio" name="number" id="4" value="9000">
+            <label for="4">9000</label> 
+         </div>
+         <div class="question">
+             <p>Your momma is not:</p>
+             <input type="checkbox" id="fool" name="fool" value="fool">
+             <label for="fool">Boo-Boo The Fool</label>
+             <input type="checkbox" id="friend" name="friend" value="friend">
+             <label for="friend">One of your little friends</label>
+             <input type="checkbox" id="play" name="play" value="play">
+             <label for="play">Playing with you</label>
+             <input type="checkbox" id="all" name="all" value="all">
+             <label for="all">All of the above</label>
+         </div>
+        </div>
+        <div class="form-section submit-form">
+            <button id="submit">Submit</button>
+        </div>
+        <div class="text-area">
+            <p>Please list 3 influential Black people in your life and why you feel their legacy is important to you:</p>
+            <textarea name="influence" id="influence" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+  </section>
+   
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
